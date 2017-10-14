@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	margin: 50px auto;
+}
+.blok1{
+	width: 400px;
+	height: 267px;
+	background-image: url('img2.png'), url('img1.jpg');
+	background-repeat: no-repeat;
+	background-position: 100% 100%, 100% 100%;
+}
+.blok2{
+	width: 500px;
+	height: 267px;
+	background: url('img2.png') 100% 100% no-repeat, #ff0000 url('img1.jpg') 100% 100% no-repeat;
+}
+.blok3{
+	width: 400px;
+	height: 267px;
+	background:
+	  url('img2.png') no-repeat 100% 100%,
+	  url('img2.png') no-repeat 0% 0%,
+	  url('img2.png') no-repeat 50% 50%,	
+	  url('img1.jpg') no-repeat 50% 50%;
+	background-size: 100px 50px, 10px 20px, 50px 50px, auto;			
+}
+.blok4{
+	width: 400px;
+	height: 267px;
+	border: 10px dotted #000;
+	background: #ff0000 url('img2.png') no-repeat 100% 100%;
+	-moz-background-clip: border;
+	-webkit-background-clip: border;
+	-webkit-background-clip: border-box;
+	background-clip: border-box;
+	padding: 10px;
+}
+.blok5{
+	width: 400px;
+	height: 267px;
+	border: 10px dotted #000;
+	background: #ff0000 url('img2.png') no-repeat 100% 100%;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	padding: 10px;
+}
+.blok6{
+	width: 400px;
+	height: 267px;
+	border: 10px dotted #000;
+	background: #ff0000 url('img2.png') no-repeat 100% 100%;
+	-webkit-background-clip: content;
+	-webkit-background-clip: content-box;
+	background-clip: content-box;
+	padding: 10px;
+}
+.blok7{
+	width: 400px;
+	height: 267px;
+	border: 10px dotted #000;
+	background: #ff0000 url('img2.png') no-repeat 100% 100%;
+	-moz-background-origin: border;
+	-webkit-background-origin: border;
+	-webkit-background-origin: border-box;
+	background-origin: border-box;
+	padding: 10px;
+}
+.blok8{
+	width: 400px;
+	height: 267px;
+	border: 10px dotted #000;
+	background: #ff0000 url('img2.png') no-repeat 100% 100%;
+	-moz-background-origin: padding;
+	-webkit-background-origin: padding;
+	-webkit-background-origin: padding-box;
+	background-origin: padding-box;
+	padding: 10px;
+}
+.blok9{
+	width: 400px;
+	height: 267px;
+	border: 10px dotted #000;
+	background: #ff0000 url('img2.png') no-repeat 100% 100%;
+	-moz-background-origin: content;
+	-webkit-background-origin: content;
+	-webkit-background-origin: content-box;
+	background-origin: content-box;
+	padding: 10px;
+}
